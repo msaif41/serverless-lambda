@@ -1,2 +1,2 @@
 # serverless-lambda
-![test](images/test.png)
+![sketch](images/serverless-lambda.png)
