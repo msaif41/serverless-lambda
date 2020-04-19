@@ -1,2 +1,3 @@
 # serverless-lambda
 ![sketch](images/serverless-lambda.png)
+Using AWS Cloud9, producer and consumer lambdas were deployed to AWS Lamda. Code for each can be found in the "scripts" directory. In order to kick off the pipeline, a CloudWatch event is set to trigger every minute. This starts the producer lambda, which pulls rows from a DynamoDB table containing a list of "FAANG" company names. Those names are put into an Amazon SQS, which triggers and empties into the consumer lambda that forwards to Amazon Comprehend for sentiment analysis. Finally, the outputted csv files are sent to an S3 bucket. The resulting csv consists of three columns - the company name, wikipedia snippet, and associate sentiment.
