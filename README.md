@@ -4,4 +4,4 @@ Using AWS Cloud9, producer and consumer lambdas were deployed to AWS Lamda. Code
 
 A demo and more hands-on overview of the serverless engineering pipeline can be found here: https://www.youtube.com/watch?v=2tTJc_zwmcw <br>
 
-More detailed, step-by-step instructions can be found at Professor Gift's GitHub: https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb
+More detailed, step-by-step instructions can be found at Professor Gift's GitHub repository: https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb
